@@ -22,6 +22,13 @@ public class TodoItem {
         this.state = state;
     }
 
+    public TodoItem (Long id, String title, String state) {
+        super();
+        this.id = id;
+        this.title = title;
+        this.state = state;
+    }
+
     public TodoItem ( ) {
     }
 }
