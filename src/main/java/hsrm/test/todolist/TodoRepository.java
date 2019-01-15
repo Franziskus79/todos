@@ -1,7 +1,7 @@
 package hsrm.test.todolist;
 
-import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.repository.CrudRepository;
 
-interface TodoRepository extends JpaRepository<TodoItem, Long> {
+interface TodoRepository extends CrudRepository<TodoItem, Long> {
 
 }
